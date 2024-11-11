@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load pre-trained model
-model = joblib.load('/model.pkl')
+model = joblib.load('renderdemo/model.pkl')
 
 # Home route to display the form
 @app.route('/')
